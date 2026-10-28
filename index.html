@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اسمك | Portfolio</title>
+  <meta name="description" content="الموقع الشخصي واستعراض المشاريع والتاسكات">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- الشريط العلوي -->
+  <header class="topbar">
+    <a href="#home" class="logo">اسمك<span>.</span></a>
+    <nav>
+      <a href="#about">من أنا</a>
+      <a href="#skills">المهارات</a>
+      <a href="#tasks" class="nav-hot">التاسكات والمشاريع</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="hero">
+      <p class="eyebrow">أهلاً، أنا</p>
+      <h1>اسمك <em>الكامل</em></h1>
+      <p class="role">مطوّر ويب &middot; مصمم واجهات</p>
+      <p class="lead">
+        اكتب هنا جملة أو اتنين عن شغلك وإيه اللي بتحب تعمله. خليها بسيطة ومباشرة.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#tasks">شوف تاسكاتي</a>
+        <a class="btn ghost" href="#contact">كلمني</a>
+      </div>
+    </section>
+
+    <!-- من أنا -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="num">01</span>
+        <h2>من أنا</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          اكتب هنا نبذة عنك: بتدرس إيه أو بتشتغل في إيه، وإيه اللي بيحمسك في المجال.
+          اتكلم عن رحلتك بشكل شخصي وصادق، ده بيفرق أكتر من أي قائمة مهارات.
+        </p>
+        <ul class="facts">
+          <li><strong>الموقع</strong> مصر</li>
+          <li><strong>التخصص</strong> تطوير الويب</li>
+          <li><strong>الحالة</strong> متاح لفرص جديدة</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- المهارات -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <span class="num">02</span>
+        <h2>المهارات</h2>
+      </div>
+      <ul class="chips">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+        <li>Responsive Design</li>
+        <li>Figma</li>
+      </ul>
+    </section>
+
+    <!-- التاسكات والمشاريع (القسم الأساسي) -->
+    <section id="tasks" class="section tasks-section">
+      <div class="section-head">
+        <span class="num">03</span>
+        <h2>التاسكات والمشاريع</h2>
+      </div>
+      <p class="section-note">
+        هنا كل التاسكات والمشاريع اللي نفذتها. كل كارت فيه وصف مختصر وروابط للكود والنتيجة.
+      </p>
+
+      <div class="cards">
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-id">Task 01</span>
+            <span class="status done">مكتمل</span>
+          </div>
+          <h3>اسم التاسك الأول</h3>
+          <p>وصف مختصر لإيه اللي عملته في التاسك ده، وإيه التحدي اللي واجهك وازاي حليته.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">الكود</a>
+            <a href="#" target="_blank" rel="noopener">المعاينة</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-id">Task 02</span>
+            <span class="status done">مكتمل</span>
+          </div>
+          <h3>اسم التاسك الثاني</h3>
+          <p>وصف مختصر للتاسك الثاني. اذكر الأدوات اللي استخدمتها والنتيجة اللي وصلت لها.</p>
+          <ul class="tags"><li>JavaScript</li><li>API</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">الكود</a>
+            <a href="#" target="_blank" rel="noopener">المعاينة</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-id">Task 03</span>
+            <span class="status wip">قيد التنفيذ</span>
+          </div>
+          <h3>اسم التاسك الثالث</h3>
+          <p>تاسك لسه شغال عليه. ممكن تحط هنا الفكرة العامة وإيه المتوقع يتضاف.</p>
+          <ul class="tags"><li>React</li><li>Tailwind</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">الكود</a>
+          </div>
+        </article>
+
+        <article class="card featured">
+          <div class="card-top">
+            <span class="card-id">مشروع مميز</span>
+            <span class="status done">مكتمل</span>
+          </div>
+          <h3>اسم أهم مشروع عندك</h3>
+          <p>خصص المساحة دي لأفضل مشروع. اشرح الفكرة، دورك فيه، والنتيجة النهائية.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">الكود</a>
+            <a href="#" target="_blank" rel="noopener">المعاينة</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- التواصل -->
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <span class="num">04</span>
+        <h2>تواصل معايا</h2>
+      </div>
+      <p class="lead">عندك فكرة أو فرصة؟ ابعتلي وأنا هرد عليك.</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:yaramohy2003@gmail.com">ابعتلي إيميل</a>
+        <a class="btn ghost" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 اسمك. كل الحقوق محفوظة.</p>
+  </footer>
+
+</body>
+</html>
