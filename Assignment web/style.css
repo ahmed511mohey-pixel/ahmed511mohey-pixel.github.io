@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial;
+    background-color: #f2f5fa;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+table {
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightblue;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 7px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+input[type="reset"] {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
